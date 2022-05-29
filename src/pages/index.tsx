@@ -1,8 +1,10 @@
+import Typography from "@mui/material/Typography";
 import { Layout } from "../components/Layout";
+
 export default function Home() {
   return (
     <Layout title="Home">
-      <p className="text-4xl">Welcome to unremoted.com</p>
+      <Typography className="text-4xl">Welcome to unremoted.com</Typography>
     </Layout>
   );
 }

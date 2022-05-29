@@ -14,3 +14,75 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.margin-top60 {
+  margin-top: 60px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+/* w-80 rounded bg-white p-8 text-center shadow-xl" */
+.card-1 {
+  width: 20rem;
+  border-radius: 0.25rem;
+  padding: 2rem;
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  margin-top: 60px;
+}
+
+/* mt-4 flex justify-center */
+
+.image-1 {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.image-maru {
+  border-radius: 9999px;
+}
+
+.m-12 {
+  margin: -3rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
